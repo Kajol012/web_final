@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:hover,
+.button:hover {
+    background: #555;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.remember input {
+    width: auto;
+    margin-right: 8px;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    background: #e6f4ea;
+    color: #1b5e20;
+}
+
+.error {
+    background: #fdecea;
+    color: #b71c1c;
+}
+
+.registration-box {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.registration-box p {
+    margin: 12px 0;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
